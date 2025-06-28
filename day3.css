@@ -113,7 +113,7 @@ h3 span:hover {
 .heroDetails button {
     width: 15%;
     border: 3px solid #b63937;
-    border-radius: 25px;
+    border-radius: 15px;
     cursor: pointer;
     color: #b63937;
     transition: background-color 0.7s ease-in-out;
