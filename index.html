@@ -2,54 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avengers : Iron Man</title>
-    <link rel="stylesheet" href="day3.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avengers : Iron Man</title>
+  <link rel="stylesheet" href="day3.css" />
 </head>
 
 <body>
-    <div class="d1">
-        <div class="d2">
-            <div class="logoDiv">
-                <img src="https://download.logo.wine/logo/Avengers_(comics)/Avengers_(comics)-Logo.wine.png" alt="img"
-                    srcset="">
-            </div>
-            <div class="menu-icon" onclick="toggleMenu()">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="navDiv" id="navLinks">
-                <span>HOME</span>
-                <span>A:CHARACTER</span>
-                <span>ABOUT</span>
-                <span>SERVICE</span>
-            </div>
-        </div>
-        <div class="d3">
-            <div class="heroDetails">
-                <h3><span>Genius. Billionaire. Hero.</span></h3>
-                <h1>IRON MAN</h1>
-                <span>As Tony Stark, he redefined technology. As Iron Man, he redefined heroism.
-                    From building the first suit in a cave to saving the universe with a snap,
-                    Iron Man stands as a symbol of courage, innovation, and sacrifice.
-                    Become part of a legacy that changed the world — join the fan club now.
-                </span>
-                <button type="button">Join Fanclub</button>
-            </div>
-            <div class="heroImg">
-                <img src="https://th.bing.com/th/id/R.0a708c9190f3419e65469b048e15ba61?rik=Rm%2frWv32ESg9Xw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2firon-man-png-hd-iron-man-standing-1768.png&ehk=28HNUqwohqZkHQW9NCwTmModvBBlZp%2b5CfvfUKqyGS8%3d&risl=&pid=ImgRaw&r=0"
-                    alt="img">
-            </div>
-        </div>
+  <div class="d1">
+    <div class="d2">
+      <div class="logoDiv">
+        <img src="https://download.logo.wine/logo/Avengers_(comics)/Avengers_(comics)-Logo.wine.png"
+             alt="Avengers logo" />
+      </div>
+
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="navDiv" id="navLinks">
+        <a href="#">HOME</a>
+        <a href="#">A:CHARACTER</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICE</a>
+      </div>
     </div>
-    <script>
-        function toggleMenu(){
-            const a = document.getElementById("navLinks");
-            a.classList.toggle("active");
-        }
-    </script>
+
+    <div class="d3">
+      <div class="heroDetails">
+        <h3><span>Genius. Billionaire. Hero.</span></h3>
+        <h1>IRON MAN</h1>
+        <span>
+          As Tony Stark, he redefined technology. As Iron Man, he redefined heroism.
+          From building the first suit in a cave to saving the universe with a snap,
+          Iron Man stands as a symbol of courage, innovation, and sacrifice.
+          Become part of a legacy that changed the world — join the fan club now.
+        </span>
+        <button type="button">Join Fanclub</button>
+      </div>
+
+      <div class="heroImg">
+        <img src="https://pluspng.com/img-png/iron-man-png-hd-iron-man-standing-1768.png"
+             alt="Iron Man in suit standing" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
 </body>
 
 </html>
