@@ -152,179 +152,38 @@ body {
     filter: drop-shadow(10px 0 15px#000);
 }
 
-.heroImg img:hover {
-    transform: scale(1.1);
+.navDiv span:hover{
+    color: #b97d10;
+    border-bottom: 2px solid #b97d10;
 }
 
-@media (max-width: 480px) {
-    .d2{
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 35px !important;
-    }
-    
-    .logoDiv{
-        width: 40%;
-    }
-
-    .logoDiv img{
-        width: 70%;
-    }
-
-    .navDiv {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        right: 20px;
-        top: 70px;
-        background-color: #ffffffcf;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .navDiv span{
-        color: #d0a751;
-    }
-
-    .navDiv.active {
-        display: flex;
-        width: 140px;
-        height: 165px;
-    }
-
-    .menu-icon {
-        display: flex;
-    }
-
-    .d3{
-        margin: auto;
-        flex-direction: column;
-    }
-
-    .heroDetails{
-        width: 100%;
-        margin: 35px 0;
-    }
-
-    .heroDetails h3 span {
-        font-size: 18px;
-    }
-
-    .heroDetails h1{
-        font-size: 24px;
-    }
-    
-    .heroDetails span{
-        font-size: 16px;
-    }
-
-    .heroDetails button{
-        width: 40%;
-        font-size: 14px;
-    }
-
-    .heroImg{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .heroImg img{
-        max-width: 200px;
-        max-height: 300px;
-    }
+.heroDetails span:hover {
+    color: #b97d10
 }
 
-@media (max-width: 780px) {
-    .d2{
-        padding: 0 40px;
-    }
-    .logoDiv{
-        width: 40%;
-    }
-
-    .logoDiv img{
-        width: 70%;
-    }
-
-    .navDiv{
-        width: 60%;
-        gap: 20px;
-    }
-
-    .d3{
-        margin: auto;
-    }
-
-    .heroDetails h3 span{
-        font-size: 20px;
-    }
-
-    .heroDetails h1{
-        font-size: 22px;
-    }
-
-    .heroDetails span{
-        font-size: 18px;
-    }
-
-    .heroDetails button{
-        width: 70%;
-        font-size: 16px;
-    }
-    
-    .heroImg{
-        width: 100%;
-    }
-
-    .heroImg img{
-        max-width: 300px;
-    }
+h3 span:hover {
+    color: #b97d10
 }
 
-@media (max-width: 945px) {
-    .d2{
-        padding: 0 20px;
-    }
-
-    .logoDiv img{
-        width: 60%;
-    }
-
-    .heroDetails h3 span{
-        font-size: 20px;
-    }
-
-    .heroDetails h1{
-        font-size: 22px;
-    }
-
-    .heroDetails span{
-        font-size: 18px;
-    }
-
-    .heroDetails button{
-        width: 70%;
-        font-size: 19px;
-    }
+.heroDetails button {
+    width: 15%;
+    border: 3px solid #b63937;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #b63937;
+    transition: background-color 0.7s ease-in-out;
 }
 
-@media (max-width: 1285px) {
-    .d3{
-        margin: auto;
-    }
-    .heroDetails button{
-        width:150px;
-        height:45px;
-    }
+.heroDetails button:hover{
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    background-color: #b63937;
 
-    .navDiv{
-        gap: 20px;
-    }
 }
 
-@media (min-width: 1285px) {
-    .heroDetails button{
-        width: 25%;
-    }
-}
+
+
+
+
+
+
